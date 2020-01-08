@@ -15,12 +15,14 @@ An element is majority if it is present in more than half of positions from the 
 
 ### With strings:
 ```
+>>> from boyer_moore_majority.boyer_moore_majority import boyer_moore_majority
 >>> boyer_moore_majority(["Trump", "Obama", "Obama", "Trump", "Obama"])
 'Obama'
 ```
 
 ### With different types:
 ```
+>>> from boyer_moore_majority.boyer_moore_majority import boyer_moore_majority
 >>> boyer_moore_majority(["a", "1", "b", "b", -2, "b", "b"])
 'b'
 ```
