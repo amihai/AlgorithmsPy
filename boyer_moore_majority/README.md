@@ -1,7 +1,8 @@
 # Boyer Moore Majority
 
-Find the majority of a list (sequence of elements) using the Boyer–Moore majority vote algorithm: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm.
-The majority element is present in more than half of positions from the sequence of elements.
+Find the majority of a list (sequence of elements) using the Boyer–Moore majority vote algorithm: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm.  
+
+An element is majority if it is present in more than half of positions from the sequence of elements.
 
 ## Examples of use:
 
