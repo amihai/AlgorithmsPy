@@ -35,14 +35,17 @@ if __name__ == '__main__':
     # Happy Flow - even number of elements
     assert boyer_moore_majority([3, 1, 1, 1]) == 1
 
-    # Happy Flow - sorted asc array
-    assert boyer_moore_majority([1, 2, 3, 4, 4, 4, 4]) == 4
-
     # Happy flow - strings
     assert boyer_moore_majority(["Trump", "Obama", "Obama", "Trump", "Obama"]) == "Obama"
 
+    # Happy Flow - sorted asc array
+    assert boyer_moore_majority([1, 2, 3, 4, 4, 4, 4]) == 4
+
     # Happy Flow - sorted desc array
     assert boyer_moore_majority([7, 6, 5, 4, 3, 3, 3, 3, 3]) == 3
+
+    # Happy Flow - one element
+    assert boyer_moore_majority([7]) == 7
 
     # Empty List
     assert boyer_moore_majority([]) is None
